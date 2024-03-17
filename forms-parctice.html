@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="name" >First Name:</label>
+        <input type="text" id="name" placeholder="enter your name" value="jayavardhan" name="F_Name" required><br><br>
+<label for="my name">Last Name:</label>
+<input type="text" id="my name" placeholder="optional" name="L_Name" value="Setikam" required >
+    </form><br>
+    <form action="">
+        <label for="qualification">chose your educational qualification</label>
+        <select name="educational" id="qualification">
+           <optgroup label="degree"><option value="B.sc">B.sc</option></optgroup> 
+            <optgroup label="engg"><option value="B.Tech">B.Tech</option></optgroup>
+            <optgroup label="othres"><option value="B.com">B.com</option></optgroup>
+        </select><br><br>Mention Your Blood Group:
+        <input type="radio" id="Blood group" name="blood">
+        <label for="Blood Group">A+ve</label>
+        <input type="radio" id="my blood" name="blood" checked>
+        <label for="my blood">B+ve</label>
+        <input type="radio" id="b3" name="blood">
+        <label for="b3">B-ve</label>
+        <input type="radio" id="b4" name="blood" style="margin-left: 10px;">
+        <label for="b4">A-ve</label><br><br>
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" id="dob">
+<label for="pass" style="margin-left: 10px;">Passed Out Year:</label>
+<input type="date" id="pass"><br><br>
+<label for="age">Mobile Number:</label>
+<input type="tel " pattern="[0-9]{10}" id="age">
+<input type="submit"><br><br>
+<input type="checkbox" id="Declaration"><label for="Declaration">I certify that the information I have written on the application form and the documents I have submitted to be
+    true and accurate. </label>
+</body>
+</html>

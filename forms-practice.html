@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form method="get">
+    <label for="name">NAME:</label>
+    <input type="text" placeholder="First name" id="name" required name="f_name" value="jay" ><br><br>
+    <input type="text" id="name" placeholder="Last Name" style="margin-left: 55px;" required name="l_name" value="var"><br><br>
+    <label for="mobile">MOBILE NUMBER:</label>
+    <input type="tel" id="mobile" pattern="[0-9]{10}" required name="mobil" value="3333333333"><br><br>
+    <input type="submit" value="submit" style="margin-left: 200px;"><br>
+    <p>GENDER:</p>
+   <input type="radio" id="male" name="na" ><label for="male">male</label>
+   <input type="radio" name="na" id="male"><label for="female">female</label><br>
+<label for="cars">choose a car</label>
+<select name="bikes" id="cars">
+    <option value="car">volvo</option>
+    <option value="bike">bmz</option>
+    <option value="air">js</option>
+</select>
+<input list="browsers">
+<datalist id="browsers">
+    <option value="google">google</option>
+    <option value="firefox">firefox</option>
+    <option value="edge">edge</option>
+
+
+</datalist>
+<label for="cars">
+    choose a car
+</label>
+<select name="car" id="cars">
+    <optgroup label="cars">
+        <option value="volvo">volvo</option>
+        <option value="bmw">BMW</option>
+    </optgroup>
+    <optgroup label="cars">
+        <option value="volvo">volvo</option>
+        <option value="bmw">BMW</option>
+    </optgroup>
+</select>
+</form>
+</body>
+</html>
